@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container-color{
+    margin: 0 auto;
+    color: white;
+}
+
+.space-left{
+    margin-left: 8px;
+}
+
+.space-right{
+    margin-right: 5px;
+}
+
+.container-header {
+    display: flex;
+    position: fixed;
+    top: 2em;
+    right: 3em;
+}
+
+.color-grey{
+    background-color: grey;
+    padding: .5em;
+    border-radius: .5em;
+}
