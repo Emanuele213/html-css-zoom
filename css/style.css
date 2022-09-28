@@ -57,11 +57,36 @@ body{
     background-color: grey;
     position: fixed;
     bottom: 0;
-    padding: 2em;
+    padding: 1.5em;
     width: 100%;
 }
 
 .footer-container-flex{
     color: white;
     display: flex;
+    justify-content: space-between;
+}
+
+.space-left-footer{
+    margin-left: 25px;
+}
+
+.icons{
+    font-size: 25px;
+}
+
+.green{
+    color: green;
+}
+
+.a-red{
+    color: red;
+    text-decoration: none;
+    padding: 1em ;
+    border: none;
+}
+
+.a-red:hover{
+    cursor: pointer;
+    background-color: lightgray;
 }
