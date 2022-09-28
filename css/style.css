@@ -6,7 +6,10 @@
 
 body{
     background-color: black;
+    margin-top: 100px;
 }
+
+     /* header */
 
 .container-color{
     margin: 0 auto;
@@ -14,7 +17,7 @@ body{
 }
 
 .space-left{
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 .space-right{
@@ -32,4 +35,33 @@ body{
     background-color: grey;
     padding: .5em;
     border-radius: .5em;
+}
+
+    /* main */
+
+.main-container-flex{
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 2em;
+    gap: 2em; 
+    
+}
+
+.flex-img{
+    flex-basis: calc(100% / 8 - 82em);
+}
+
+    /* footer */
+
+.footer-color{
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    padding: 2em;
+    width: 100%;
+}
+
+.footer-container-flex{
+    color: white;
+    display: flex;
 }
