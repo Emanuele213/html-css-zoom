@@ -1,96 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoom</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zoom</title>
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- style -->
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="container-color">
-        <div class="container-header">
-            <div class="color-grey"><i class="fa-solid fa-grip space-right"></i> Speaker View </div>
-            <div><i class="fa-solid fa-maximize color-grey space-left"></i></div>
-        </div>
-    </header>
+    <!-- Barra di sopra in alto a destra -->
+	<div class="bar-top">
+		<div class="btn">
+			<i class="fa-solid fa-table-cells"></i>
+			Speaker View
+		</div>
+		<div class="btn">
+			<i class="fa-solid fa-maximize"></i>
+		</div>
+	</div>
 
-    <main>
-        <div class="main-container-flex">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-            <img src="https://picsum.photos/id/237/200/300" alt="" class="flex-img">
-        </div>
-    </main>
 
-    <footer class="footer-color">
-        <!-- Parte di sinistra -->
-        <div class="footer-container-flex">
-            <div>
-                <i class="fa-solid fa-microphone icons"></i>
-                <i class="fa-solid fa-angle-up space-left-footer"></i>
-                <i class="fa-solid fa-video space-left-footer icons"></i>
-                <i class="fa-solid fa-angle-up space-left-footer"></i>
-            </div>
-            <!-- Parte centrale -->
-            <div>
-                <i class="fa-solid fa-user-plus icons "></i>
-                <i class="fa-solid fa-users space-left icons"></i>
-                <i class="fa-solid fa-chart-column space-left icons"></i>
-                <i class="fa-solid fa-share space-left icons green"></i>
-                <i class="fa-solid fa-angle-up space-left"></i>
-                <i class="fa-solid fa-comment space-left icons"></i>
-                <i class="fa-solid fa-record-vinyl space-left icons"></i>
-                <i class="fa-brands fa-windows space-left icons"></i>
-                <i class="fa-solid fa-plus space-left icons"></i>
-            </div>
-            <!-- Parte di destra -->
-            <div>
-               <a href="#!" class="a-red">End Mitting</a> 
-            </div>
-        </div>
-    </footer>
+    <!-- Parte centrale -->
+	<main>
+		<div class="cards container">
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/200" alt="">
+				<div class="tag">
+					<i class="fa-solid fa-microphone-slash"></i>
+					Pinco Pallo
+				</div>
+			</div>
+
+			<div class="card"></div>
+			<div class="card"></div>
+			<div class="card"></div>
+			<div class="card"></div>
+			<div class="card"></div>
+			<div class="card"></div>
+		</div>
+	</main>
+
+
+    <!-- Barra di controllo  sinistra-->
+	<div class="bar-bottom">
+		<div class="bottom-left">
+			<div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-solid fa-microphone"></i>
+					<div class="text">Mute</div>
+				</div>
+				<i class="dash-arrow fa-solid fa-angle-up"></i>
+			</div>
+
+			<div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-solid fa-video"></i>
+					<div class="text">Stop video</div>
+				</div>
+				<i class="dash-arrow fa-solid fa-angle-up"></i>
+			</div>
+		</div>
+        <!-- Barra di controllo centrale-->
+		<div class="bottom-center">
+			<div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-solid fa-user-plus"></i>
+					<div class="text">Invite</div>
+				</div>
+			</div>
+
+			<div class="btn-dash">
+				<div class="btn-right">
+                    <i class="dash-ico fa-solid fa-users"></i>
+					<div class="text">Manage participans</div>
+				</div>
+			</div>
+			<div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-solid fa-chart-column"></i>
+					<div class="text">Polling</div>
+				</div>
+			</div>
+
+			<div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-solid fa-share-from-square color-green"></i>
+					<div class="text">Share Screen</div>
+				</div>
+				<i class="dash-arrow fa-solid fa-angle-up"></i>
+			</div>
+
+			<div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-solid fa-comment"></i>
+					<div class="text">Chat</div>
+				</div>
+			</div>
+
+			<div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-solid fa-record-vinyl"></i>
+					<div class="text">Record</div>
+				</div>
+			</div>
+
+            <div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-brands fa-windows"></i>
+					<div class="text">Brekout rooms</div>
+				</div>
+			</div>
+
+            <div class="btn-dash">
+				<div class="btn-right">
+					<i class="dash-ico fa-solid fa-plus"></i>
+					<div class="text">More</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="bottom-right">
+			<div class="btn">End Meeting</div>
+		</div>
+	</div>
 </body>
 </html>
